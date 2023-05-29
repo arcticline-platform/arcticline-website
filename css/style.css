@@ -71,6 +71,47 @@ ol {
     width: 100%;
     text-align: center;
 }
+
+/* main content  */
+.first-content{
+    /* padding: 100px; */
+    background-color: rgb(179, 177, 177);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+
+}
+.my-second-content .col-6{
+    border: 1px solid #0F77AA;
+}
+.works{
+    float: right;
+    border: 1px solid #0F77AA;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+.works .active{
+    background-color: #0F77AA;
+}
+.works li{
+    padding: 20px;
+    list-style-type: none;
+    
+}
+.works li a{
+    color: black;
+    text-decoration: none;
+}
+.works li a:hover{
+    color: white;
+    
+}
+.works li:hover{
+    background-color: #0F77AA;
+}
+/* end of main content  */
+
+/* footer section  */
 .footer_section {
     width: 100%;
     float: left;
