@@ -10,11 +10,11 @@ ol {
 }
 
 .header_section {
-    width: 100%;
-    float: left;
     background-image: url(../images/banner.png);
     height: 150vh;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -38,7 +38,7 @@ ol {
 
 .navbar-light .navbar-nav .nav-link {
     display: block;
-    padding: 0rem 3rem;
+    padding: 0rem 1.5rem;
     font-size: 18px;
     color: white;
     text-transform: uppercase;
@@ -66,10 +66,19 @@ ol {
     font-family: Times New Rom;
     margin-left: 130px;
 }
+.brand-name{
+    margin-top: 20px;
+    font-size:2.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
 
 .image_1 {
     width: 100%;
     text-align: center;
+}
+@media(max-width: 726px){
+    
 }
 
 /* main content  */
@@ -77,9 +86,16 @@ ol {
     /* padding: 100px; */
     background-color: rgb(179, 177, 177);
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 40vh;
+    width: 90%;
 
+}
+@media(max-width: 726px){
+    .first-content{
+        height: 40vh;
+        width: 80%;
+        margin-left: 40px;
+    }
 }
 .my-second-content .col-6{
     border: 1px solid #0F77AA;
@@ -109,7 +125,20 @@ ol {
 .works li:hover{
     background-color: #0F77AA;
 }
+.section{
+    margin: 10%;
+    border: 1px solid #0F77AA;
+    border-radius: 25px;
+    padding: 2%;
+    background-color: #0F77AA;
+    color: #d9d9d8;
+}
+
 /* end of main content  */
+/* Contact Page */
+.contact-socials{
+    color: #d9d9d8;
+}
 
 /* footer section  */
 .footer_section {
